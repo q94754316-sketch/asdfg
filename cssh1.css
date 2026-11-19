@@ -1,0 +1,130 @@
+p.serif {
+    font-family: 'Pacifico', Lucida Handwriting !important;
+    font-size: 55px;
+    text-align: center;
+    color: rgb(43, 193, 165);
+    background: linear-gradient(to right, blue, red);
+    border-radius: 30px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    width: 2000px;
+    height: 100px
+}
+
+body {
+     background: linear-gradient(135deg, #FF0000,#00C2FF );
+    color: rgb(255, 0, 0);
+
+}
+
+img:hover {
+    transform: scale(1.05);
+    transform: rotate(1deg);
+    box-shadow: 0 0 100px #0756e9;
+    cursor: crosshair;
+    transition: 0.3s;
+    box-shadow:
+        0 0 40px rgb(3, 195, 239),
+        0 0 40px rgb(2, 218, 2),
+        0 0 40px blue;
+
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+     position: absolute;
+    left: 0px;
+    top: 55px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    align-items: left;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.logo:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+footer { background: linear-gradient(90deg, #d697d0);
+    width: 1240px;
+     height: 20;
+     padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+} 
+
+
+@media (max-width: 1200px) {
+    .serif {
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        top: 30px;
+        left: 0;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+.account-portal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.account-portal a {
+    background: linear-gradient(to right, blue, red);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.account-portal a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px cyan;
+}
+
+
+.account-portal-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    background: #0066ff;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.account-portal:hover {
+    transform: none;
+    box-shadow: none;
+}
